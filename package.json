@@ -5,6 +5,10 @@
   "scripts": {
     "start": "node ./bin/www"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kjb244/SmartBanner"
+  },
   "dependencies": {
     "body-parser": "~1.15.2",
     "cookie-parser": "~1.4.3",
