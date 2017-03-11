@@ -1,0 +1,22 @@
+{
+  "short_name": "Test App",
+  "name": "Test BOA App Chrome",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#2196F3",
+  "theme_color": "#2196F3",
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "com.infonow.bofa"
+    }
+  ],
+  "icons": [
+    {
+      "src": "images/boa.png",
+      "type": "image/png",
+      "sizes": "225x225"
+    }
+  ],
+  "start_url": "testing?launcher=true"
+}
