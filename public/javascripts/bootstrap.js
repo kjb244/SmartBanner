@@ -1,11 +1,5 @@
 setTimeout(function(){
-	var htmlContent = $('html').html();
-	if (window.location.pathname === "/testing"){
-		$.post('htmlcontent', {'html': htmlContent}, function(data){
+	var offset = $('h1').offset().top;
+	alert(offset);
 
-			
-			window.location.href = '/testing2';
-		});
-	}
-
-	}, 10000);
+	}, 2000);
