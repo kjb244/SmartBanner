@@ -1,6 +1,6 @@
 window.onload = function() {
                 // Deep link to your app goes here
-                window.location = "bofa://";
+                document.getElementById("l").src = "bofa://";
 
                 setTimeout(function() {
                     // Link to the App Store should go here -- only fires if deep link fails                
